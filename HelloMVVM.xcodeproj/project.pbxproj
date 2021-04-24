@@ -12,6 +12,7 @@
 		759986032634AB110049FD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759986022634AB110049FD36 /* Assets.xcassets */; };
 		759986062634AB110049FD36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759986052634AB110049FD36 /* Preview Assets.xcassets */; };
 		759986102634BBA00049FD36 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599860F2634BBA00049FD36 /* Counter.swift */; };
+		759986152634C0A50049FD36 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759986142634C0A50049FD36 /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		759986052634AB110049FD36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		759986072634AB110049FD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7599860F2634BBA00049FD36 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		759986142634C0A50049FD36 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		759985FD2634AB0F0049FD36 /* HelloMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				759986132634C0870049FD36 /* View Models */,
 				7599860E2634BB8D0049FD36 /* Models */,
 				759985FE2634AB0F0049FD36 /* HelloMVVMApp.swift */,
 				759986002634AB0F0049FD36 /* ContentView.swift */,
@@ -78,6 +81,14 @@
 				7599860F2634BBA00049FD36 /* Counter.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		759986132634C0870049FD36 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				759986142634C0A50049FD36 /* CounterViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				759986012634AB0F0049FD36 /* ContentView.swift in Sources */,
+				759986152634C0A50049FD36 /* CounterViewModel.swift in Sources */,
 				759985FF2634AB0F0049FD36 /* HelloMVVMApp.swift in Sources */,
 				759986102634BBA00049FD36 /* Counter.swift in Sources */,
 			);

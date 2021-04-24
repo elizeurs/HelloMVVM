@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+  var body: some View {
+    VStack {
+      Text("PREMIUM")
+        .frame(width: 200, height: 100)
+        .font(.largeTitle)
+      
+      Text("0")
+        .font(.title)
+        .padding(.bottom)
+      Button("Increment") {
+        
+      }
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }

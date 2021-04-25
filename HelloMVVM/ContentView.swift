@@ -17,7 +17,8 @@ struct ContentView: View {
   
   var body: some View {
     VStack {
-      Text("PREMIUM")
+      Text(counterVM.premium ? "PREMIUM" : "")
+        .foregroundColor(.green)
         .frame(width: 200, height: 100)
         .font(.largeTitle)
       
